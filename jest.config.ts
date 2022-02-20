@@ -8,5 +8,6 @@ const config: Config.InitialOptions = {
   moduleNameMapper: {
     "\\.(css|less)$": "identity-obj-proxy",
   },
+  moduleDirectories: ["<rootDir>/node_modules"],
 };
 export default config;
