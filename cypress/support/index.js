@@ -22,4 +22,4 @@ import "./commands";
 // Ensure global app styles are loaded:
 import "../../src/index.css";
 
-import "@cypress/code-coverage/support";
+// import "@cypress/code-coverage/support";
