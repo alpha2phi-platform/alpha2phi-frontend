@@ -9,5 +9,9 @@ const config: Config.InitialOptions = {
     "\\.(css|less)$": "identity-obj-proxy",
   },
   moduleDirectories: ["<rootDir>/node_modules"],
+  transform: {
+    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.svg$": "<rootDir>/svgTransform.js",
+  },
 };
 export default config;

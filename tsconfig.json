@@ -20,11 +20,16 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "types": [
-      "cypress"
+      "jest"
     ]
   },
   "include": [
-    "src"
+    "src/**/*.tsx",
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "src/**/*.spec.tsx",
+    "src/**/*.spec.ts"
   ],
   "references": [
     {
