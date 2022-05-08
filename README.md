@@ -1,5 +1,7 @@
 # Web Frontend
 
+## The code has been moved to the alpha2phi repository.
+
 React web frontend for alpha2phi-platform.
 
 ## Add Jest
